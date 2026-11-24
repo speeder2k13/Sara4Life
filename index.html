@@ -173,9 +173,9 @@ footer a{color:#fff}
 .gz-mast h2{font-size:clamp(36px,7vw,84px);margin:0;text-align:center;line-height:.98}
 .gz-mast h2 b{color:var(--red)}
 .gz-motto{text-align:center;font:600 17px "Open Sans",sans-serif;padding:8px 0;border-bottom:1px solid #1a1a1a}
-.gz-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);margin-top:26px}
-.gz-lead{padding-right:30px;border-right:1px solid #1a1a1a}
-.gz-side{padding-left:30px}
+.gz-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);grid-template-rows:auto 1fr;align-items:start;margin-top:26px}
+.gz-lead{grid-column:1;grid-row:1;padding-right:30px}
+.gz-side{grid-column:2;grid-row:1/span 2;align-self:stretch;padding-left:30px;border-left:1px solid #1a1a1a}
 .gz-kick{font:800 12px Montserrat,sans-serif;color:var(--red);text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px}
 .gz-lead h3{font-size:clamp(30px,4.2vw,48px);line-height:1.05;margin-bottom:12px}
 .gz-deck{font-size:19px;color:var(--soft);margin-bottom:14px}
@@ -205,14 +205,14 @@ footer a{color:#fff}
 .gz-don{background:var(--sand);border-radius:6px;padding:18px 20px}
 .gz-don h3{font-size:21px}
 .gz-don p{font-size:16px}
-.gz-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:22px 30px;border-top:4px double #1a1a1a;margin-top:30px;padding-top:20px}
+.gz-row{grid-column:1;grid-row:2;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:22px 30px;border-top:4px double #1a1a1a;margin:30px 30px 0 0;padding-top:20px}
 .gz-row:empty{display:none}
 .gz-item{border-top:1px solid #d6d6da;padding-top:12px}
 .gz-item .gz-meta{border:0;padding:0;margin:0 0 6px}
 .gz-fbwrap{border-top:4px double #1a1a1a;margin-top:34px;padding-top:28px}
 .gz-fbwrap h3{font-size:clamp(26px,3vw,34px)}
 .gz-note{text-align:center;font:700 12px Montserrat,sans-serif;color:var(--soft);margin-top:28px;border-top:1px solid #1a1a1a;padding-top:10px}
-@media(max-width:860px){.gz-grid{grid-template-columns:minmax(0,1fr)}.gz-lead{padding-right:0;border-right:0}.gz-side{padding-left:0;margin-top:26px}.gz-cols{column-count:1}.gz-mast img{width:50px;height:50px}}
+@media(max-width:860px){.gz-grid{grid-template-columns:minmax(0,1fr);grid-template-rows:none}.gz-lead,.gz-side,.gz-row{grid-column:1;grid-row:auto}.gz-lead{padding-right:0}.gz-side{padding-left:0;border-left:0;margin-top:26px}.gz-row{margin-right:0}.gz-cols{column-count:1}.gz-mast img{width:50px;height:50px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -368,8 +368,8 @@ footer a{color:#fff}
     <div class="gz-grid slide">
       <article class="gz-lead" id="gzLead"></article>
       <aside class="gz-side" id="gzSide"></aside>
+      <div class="gz-row" id="gzRow"></div>
     </div>
-    <div class="gz-row slide" id="gzRow"></div>
     <div class="feed gz-fbwrap slide">
       <div>
         <div class="gz-kick">Direct de pe Facebook</div>
