@@ -1,0 +1,73 @@
+{
+  "actualizat": "2026-11-23",
+  "noutati": [
+    {
+      "id": "2026-11-17-liste-pline-slatina",
+      "data": "2026-11-17",
+      "categorie": "Campanii de sterilizare",
+      "localitate": "Slatina",
+      "principal": true,
+      "titlu": "Listele de la Slatina s-au umplut în câteva zile",
+      "subtitlu": "Medicii de la Smeura pot opera 120 de animale la o campanie. Pentru 27 noiembrie și pentru campania din 7–11 decembrie nu mai sunt locuri.",
+      "rezumat": [
+        "În ultimele zile am primit foarte multe cereri de sterilizare, semn că tot mai mulți oameni înțeleg cât de important e să-și sterilizeze câinii și pisicile.",
+        "Echipa de medici de la Smeura poate opera un număr limitat de animale, adică 120 la o campanie. Când toate locurile sunt ocupate, nu mai putem primi pe nimeni pe listă, oricât ne-am dori.",
+        "Datorită cererilor s-a mai organizat o campanie în săptămâna 7–11 decembrie, dar și aceasta este deja plină.",
+        "Cine are mașină poate merge la Adăpostul Smeura din județul Argeș, unde sterilizarea se face tot gratuit, de luni până sâmbătă. Sâmbăta poate fi mai aglomerat, așa că e bine să sunați înainte."
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61585520395277"
+    },
+    {
+      "id": "2026-11-17-campanii-draganesti-calarasi",
+      "data": "2026-11-17",
+      "categorie": "Pe scurt",
+      "localitate": "Drăgănești-Olt și Călărași (Dolj)",
+      "titlu": "Campanii gratuite și în localitățile vecine",
+      "rezumat": [
+        "Drăgănești-Olt, joi 26 noiembrie, la Stadionul „Ene Sandu”, cu sprijinul Primăriei și al medicilor Smeura. Programări la Primărie: 0249 465 815 (8:00–16:00).",
+        "Călărași (Dolj), aproape de Corabia și Caracal, pe 25 noiembrie și 16 decembrie. Programări: 0749 827 207."
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61585520395277"
+    },
+    {
+      "id": "2026-11-04-inscrieri-doar-telefonic",
+      "data": "2026-11-04",
+      "categorie": "Anunț important",
+      "tip": "anunt",
+      "titlu": "Înscrierile se fac doar la telefon sau pe WhatsApp",
+      "rezumat": [
+        "Programările pentru campaniile noastre de sterilizare se fac doar prin apel sau mesaj WhatsApp, la numerele afișate de asociație. Nu vă înscrieți pe alte site-uri sau pagini care folosesc numele Sara 4 life."
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61585520395277"
+    },
+    {
+      "id": "2026-10-26-programari-slatina",
+      "data": "2026-10-26",
+      "categorie": "Campanii de sterilizare",
+      "localitate": "Slatina",
+      "titlu": "Programările pentru 27 noiembrie încep pe 16 noiembrie",
+      "rezumat": [
+        "Ultima campanie de sterilizări gratuite de anul acesta de la Slatina are loc pe 27 noiembrie. Programările au început pe 16 noiembrie."
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61585520395277"
+    },
+    {
+      "id": "2026-10-25-multumiri-slatina",
+      "data": "2026-10-25",
+      "categorie": "Mulțumiri",
+      "localitate": "Slatina",
+      "titlu": "Campanii lunare la Slatina",
+      "rezumat": [
+        "Mario De Mezzo a mulțumit asociației pentru organizarea campaniilor de sterilizare gratuită de la Slatina, făcute lunar și uneori de două ori pe lună. Campaniile continuă și anul viitor."
+      ],
+      "link": "https://www.facebook.com/profile.php?id=61585520395277"
+    }
+  ],
+  "calendar": [
+    { "data": "2026-11-25", "loc": "Călărași (Dolj)" },
+    { "data": "2026-11-26", "loc": "Drăgănești-Olt" },
+    { "data": "2026-11-27", "loc": "Slatina", "plina": true },
+    { "data": "2026-12-07", "pana": "2026-12-11", "loc": "Slatina", "plina": true },
+    { "data": "2026-12-16", "loc": "Călărași (Dolj)" }
+  ]
+}
